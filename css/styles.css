@@ -164,10 +164,10 @@ body {
   flex-grow: 1;
   background-color: var(--font-color);
   background-image: linear-gradient(
-    rgba(47, 48, 58, 0.4),
-    rgba(47, 48, 58, 0.4)
-  ),
-  url("../images/background/bcg.jpg");
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url('../images/background/bcg.jpg');
   background-size: cover;
   padding-top: 200px;
   padding-bottom: 200px;
@@ -297,6 +297,23 @@ body {
   color: var(--paragraph-text-color);
 }
 
+/* Our clients */
+
+.clients-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.clients-list-icon {
+  width: 106px;
+  height: 60px;
+}
+
+.clients-link:hover,
+.clients-link:focus {
+  color: var(--accent-color);
+}
+
 /*Footer*/
 
 .footer {
@@ -362,6 +379,12 @@ body {
   border-color: transparent;
   border-radius: 4px;
   padding: 6px 22px;
+}
+
+.project-button:hover,
+.project-button:focus {
+  background-color: var(--accent-color);
+  color: var(--primary-white-color);
 }
 
 .projects-item:not(:last-child) {
