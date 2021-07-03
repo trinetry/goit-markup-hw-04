@@ -349,11 +349,12 @@ body {
   width: 44px;
   height: 44px;
   border-radius: 50%;
+  color: var(--paragraph-text-color);
 }
 
 .social-link:hover,
 .social-link:focus {
-  fill: var(--primary-white-color);
+  color: var(--primary-white-color);
   background-color: var(--accent-color);
 }
 
@@ -377,16 +378,17 @@ body {
   padding: 16px 32px;
   border: 1px solid #afb1b8;
   border-radius: 4px;
-}
-
-.clients-link:hover,
-.clients-link:focus {
-  fill: var(--accent-color);
-  border-color: var(--accent-color);
+  color: var(--paragraph-text-color);
 }
 
 .clients-list-icon {
   fill: currentColor;
+}
+
+.clients-link:hover,
+.clients-link:focus {
+  color: var(--accent-color);
+  border-color: var(--accent-color);
 }
 
 /*Footer*/
@@ -476,7 +478,6 @@ body {
 
 .social-footer-link:hover,
 .social-footer-link:focus {
-  color: var(--primary-white-color);
   background-color: var(--accent-color);
 }
 
@@ -497,7 +498,7 @@ body {
 .social-footer-icon {
   width: 20px;
   height: 20px;
-  fill: var(-);
+  fill: var(--primary-white-color);
 }
 
 /*Portfolio*/
@@ -551,11 +552,6 @@ body {
   font-size: 16px;
   line-height: 1.6;
   letter-spacing: inherit;
-}
-
-.project-button:hover,
-.project-button:focus {
-  color: var(--accent-color);
 }
 
 .project-name {
