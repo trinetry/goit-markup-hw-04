@@ -145,6 +145,10 @@ body {
   fill: currentColor;
 }
 
+.contact-item:hover. .contact-icon:focus {
+  fill: var(--accent-color);
+}
+
 .contact-item:not(:last-child) {
   margin-right: 50px;
 }
@@ -162,6 +166,7 @@ body {
 
 .contact-header:hover,
 .contact-header:focus {
+  fill: var(--accent-color);
   color: var(--accent-color);
 }
 
@@ -275,6 +280,10 @@ body {
 
 /*Our command*/
 
+.command-section {
+  background-color: #f5f4fa;
+}
+
 .coomand-list {
   display: flex;
   flex-direction: row;
@@ -285,7 +294,6 @@ body {
 .command-item {
   flex-basis: calc(100% - 120px) / 4;
   margin-left: 30px;
-  /* border: 1px solid; */
 }
 
 .command-card {
@@ -294,6 +302,7 @@ body {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
+  background-color: var(--primary-white-color);
 }
 
 .name {
@@ -349,25 +358,29 @@ body {
   justify-content: space-between;
 }
 
-.clients-list-icon {
-  width: 106px;
-  height: 60px;
-}
-
 .clients-item {
-  padding: 16px 30px;
-  text-align: center;
+  padding: 16px 32px;
   border: 1px solid #afb1b8;
   border-radius: 4px;
+  width: 170px;
+  height: 92px;
 }
 
 .clients-item:not(:last-child) {
   margin-right: 30px;
 }
 
+.clients-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
 .clients-link:hover,
 .clients-link:focus {
-  fill: var(--accent-color);
+  color: var(--accent-color);
 }
 
 /*Footer*/
