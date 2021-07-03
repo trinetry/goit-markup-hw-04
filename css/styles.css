@@ -221,14 +221,12 @@ body {
   display: flex;
   flex-direction: wrap;
   margin-left: -30px;
-  margin-right: -30px;
   align-items: center;
 }
 
 .advantages-item {
   flex-basis: calc(100% - 120px) / 4;
   margin-left: 30px;
-  margin-right: 30px;
 }
 
 .advantages {
