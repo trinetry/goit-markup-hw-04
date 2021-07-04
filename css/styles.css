@@ -137,7 +137,7 @@ body {
 
 .nav-elements:hover,
 .nav-elements:focus {
-  color: var(--accent-color);
+  color: #afb1b8;
 }
 
 .contact-icon {
@@ -318,7 +318,7 @@ body {
 }
 
 .profession {
-  text-align: center;
+  text-align: center;Z
   font-size: 16px;
   line-height: 19px;
   color: var(--paragraph-text-color);
@@ -330,6 +330,7 @@ body {
   justify-content: space-between;
   padding-left: 32px;
   padding-right: 32px;
+  color: #afb1b8;
 }
 
 .social-item:not(:last-child) {
@@ -378,7 +379,7 @@ body {
   padding: 16px 32px;
   border: 1px solid #afb1b8;
   border-radius: 4px;
-  color: var(--paragraph-text-color);
+  color: #afb1b8;
 }
 
 .clients-list-icon {
