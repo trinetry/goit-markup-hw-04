@@ -318,7 +318,7 @@ body {
 }
 
 .profession {
-  text-align: center;Z
+  text-align: center;
   font-size: 16px;
   line-height: 19px;
   color: var(--paragraph-text-color);
@@ -338,7 +338,7 @@ body {
 }
 
 .social-list-icon {
-  fill: currentColor;
+  fill: #afb1b8;
   width: 20px;
   height: 20px;
 }
